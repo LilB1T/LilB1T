@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Membership Plans</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .header {
+      margin-bottom: 40px;
+    }
+
+    .header h1 {
+      font-size: 3rem;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    .plans {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .plan {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      flex: 1;
+      max-width: 300px;
+      padding: 20px;
+      border: 2px solid transparent;
+      transition: transform 0.3s, border-color 0.3s;
+    }
+
+    .plan:hover {
+      transform: translateY(-10px);
+      border-color: #00ff85;
+    }
+
+    .plan h2 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+      color: #00ff85;
+    }
+
+    .plan p {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      color: #ccc;
+    }
+
+    .plan ul {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+    }
+
+    .plan ul li {
+      margin-bottom: 10px;
+      font-size: 1rem;
+      color: #fff;
+    }
+
+    .plan ul li span {
+      color: #00ff85;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: #111;
+      background-color: #00ff85;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #00d874;
+      transform: translateY(-5px);
+    }
+
+    @media (max-width: 768px) {
+      .plans {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Membership Plans</h1>
+      <p>Choose the perfect plan for your needs and unlock exclusive features.</p>
+    </div>
+
+    <div class="plans">
+      <!-- Basic Plan -->
+      <div class="plan">
+        <h2>Basic</h2>
+        <p>For individuals getting started.</p>
+        <ul>
+          <li><span>✔</span> Access to all basic modules</li>
+          <li><span>✔</span> Community Support</li>
+          <li><span>✘</span> Premium Content</li>
+        </ul>
+        <p><strong>$0/month</strong></p>
+        <a href="#" class="btn">Sign Up</a>
+      </div>
+
+      <!-- Pro Plan -->
+      <div class="plan">
+        <h2>Pro</h2>
+        <p>For professionals and small teams.</p>
+        <ul>
+          <li><span>✔</span> Access to all features</li>
+          <li><span>✔</span> Email Support</li>
+          <li><span>✔</span> Premium Content</li>
+        </ul>
+        <p><strong>$19/month</strong></p>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="plan">
+        <h2>Premium</h2>
+        <p>For businesses and enterprises.</p>
+        <ul>
+          <li><span>✔</span> All Pro features</li>
+          <li><span>✔</span> Dedicated Account Manager</li>
+          <li><span>✔</span> Priority Support</li>
+        </ul>
+        <p><strong>$49/month</strong></p>
+        <a href="#" class="btn">Upgrade Now</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

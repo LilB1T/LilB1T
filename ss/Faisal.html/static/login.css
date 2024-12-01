@@ -1,0 +1,115 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+  }
+  
+  /* Main Container */
+  .login-container {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f0e1e9, #f0a9c3);
+  }
+  
+  /* Left Section */
+  .left-section {
+    flex: 1;
+    background: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo h1 {
+    font-size: 36px;
+    color: #ffa600;
+    margin: 0;
+  }
+  
+  .logo p {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  .login-form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    color: #fffdfd;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .checkbox-group {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #ffa600;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background: #daa703;
+  }
+  
+  .register-link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .register-link a {
+    color: #f1b900;
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    color: #fffcfc;
+    text-decoration: none;
+  }
+  
+  /* Right Section */
+  .right-section {
+    flex: 1;
+    background: url('../static/amazing-woman-running-while-training_197531-13088.jpg') center center/cover no-repeat;
+  }
+  
